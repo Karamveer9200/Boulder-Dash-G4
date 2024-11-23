@@ -1,6 +1,7 @@
-module boulderdashremake.boulder_dash_remake {
+module boulder_dash_remake {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens boulder_dash_remake to javafx.fxml;
